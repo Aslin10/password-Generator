@@ -1,0 +1,43 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    h2{
+        color:rebeccapurple;
+    }
+
+}
+.container{
+    width: 400px;
+    background-color:aquamarine;
+    margin: 10px 20px;
+    padding: 30px 30px;
+    gap:50px;
+    display: flex;
+    user-select: none;
+    
+}
+.form_group{
+    width: 100%;
+    margin-bottom: 20px;
+    gap:10px;
+    
+    
+    
+}
+button{
+    cursor: pointer;
+    padding:5px 10px;
+    background-color:purple;
+    color: white;
+    margin:10px 10px;
+}
